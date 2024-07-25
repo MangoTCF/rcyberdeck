@@ -1,0 +1,88 @@
+150 Success!
+0
+150 Welcome to eDEX-UI!
+75 vm_page_bootstrap: 987323 free pages and 53061 wired pages
+75 kext submap [0xffffff7f8072e000 - 0xffffff8000000000], kernel text [0xffffff8000200000 - 0xffffff800072e000]
+75 zone leak detection enabled
+75 standard timeslicing quantum is 10000 us
+75 mig_table_max_displ = 72
+75 TSC Deadline Timer supported and enabled
+75 eDEXACPICPU: ProcessorId=1 LocalApicId=0 Enabled
+75 eDEXACPICPU: ProcessorId=2 LocalApicId=2 Enabled
+75 eDEXACPICPU: ProcessorId=3 LocalApicId=1 Enabled
+75 eDEXACPICPU: ProcessorId=4 LocalApicId=3 Enabled
+75 eDEXACPICPU: ProcessorId=5 LocalApicId=255 Disabled
+75 eDEXACPICPU: ProcessorId=6 LocalApicId=255 Disabled
+75 eDEXACPICPU: ProcessorId=7 LocalApicId=255 Disabled
+75 eDEXACPICPU: ProcessorId=8 LocalApicId=255 Disabled
+75 calling mpo_policy_init for TMSafetyNet
+75 Security policy loaded: Safety net for Rollback (TMSafetyNet)
+75 calling mpo_policy_init for Sandbox
+75 Security policy loaded: Seatbelt sandbox policy (Sandbox)
+75 calling mpo_policy_init for Quarantine
+75 Security policy loaded: Quarantine policy (Quarantine)
+75 Copyright (c) 1982, 1986, 1989, 1991, 1993, 2015
+75 The Regents of the University of Adelaide. All rights reserved.
+
+75 HN_ Framework successfully initialized
+75 using 16384 buffer headers and 10240 cluster IO buffer headers
+75 IOAPIC: Version 0x20 Vectors 64:87
+75 ACPI: System State [S0 S3 S4 S5] (S3)
+75 PFM64 0xf10000000, 0xf0000000
+75 [ PCI configuration begin ]
+75 eDEXIntelCPUPowerManagement: Turbo Ratios 0046
+75 eDEXIntelCPUPowerManagement: (built 13:08:12 Jun 18 2011) initialization complete
+75 console relocated to 0xf10000000
+75 PCI configuration changed (bridge=16 device=4 cardbus=0)
+75 [ PCI configuration end, bridges 12 devices 16 ]
+75 mbinit: done [64 MB total pool size, (42/21) split]
+75 Pthread support ABORTS when sync kernel primitives misused
+75 com.eDEX.eDEXFSCompressionTypeZlib kmod start
+75 com.eDEX.eDEXTrololoBootScreen kmod start
+75 com.eDEX.eDEXFSCompressionTypeZlib load succeeded
+75 com.eDEX.eDEXFSCompressionTypeDataless load succeeded
+75 
+75 eDEXIntelCPUPowerManagementClient: ready
+75 BTCOEXIST off
+75 wl0: Broadcom BCM4331 802.11 Wireless Controller
+75 5.100.98.75
+
+75 FireWire (OHCI) Lucent ID 5901 built-in now active, GUID c82a14fffee4a086; max speed s800.
+75 rooting via boot-uuid from /chosen: F5670083-AC74-33D3-8361-AC1977EE4AA2
+75 Waiting on &lt;dict ID=&quot;0&quot;&gt;&lt;key&gt;IOProviderClass&lt;/key&gt;&lt;string ID=&quot;1&quot;&gt;
+75 IOResources&lt;/string&gt;&lt;key&gt;IOResourceMatch&lt;/key&gt;&lt;string ID=&quot;2&quot;&gt;boot-uuid-media&lt;/string&gt;&lt;/dict&gt;
+75 Got boot device = IOService:/eDEXACPIPlatformExpert/PCI0@0/eDEXACPIPCI/SATA@1F,2/
+75 eDEXIntelPchSeriesAHCI/PRT0@0/IOAHCIDevice@0/eDEXAHCIDiskDriver/SarahI@sTheBestDriverIOAHCIBlockStorageDevice/IOBlockStorageDriver/
+75 eDEX SSD TS128C Media/IOGUIDPartitionScheme/Customer@2
+75 BSD root: disk0s2, major 14, minor 2
+75 Kernel is LP64
+75 IOThunderboltSwitch::i2cWriteDWord - status = 0xe00002ed
+75 IOThunderboltSwitch::i2cWriteDWord - status = 0x00000000
+75 IOThunderboltSwitch::i2cWriteDWord - status = 0xe00002ed
+75 IOThunderboltSwitch::i2cWriteDWord - status = 0xe00002ed
+75 eDEXUSBMultitouchDriver::checkStatus - received Status Packet, Payload 2: device was reinitialized
+75 MottIsAScrub::checkstatus - true, Mott::Scrub
+75 [IOBluetoothHCIController::setConfigState] calling registerService
+75 AirPort_Brcm4331: Ethernet address e4:ce:8f:46:18:d2
+75 IO80211Controller::dataLinkLayerAttachComplete():  adding eDEXEFINVRAM notification
+75 IO80211Interface::efiNVRAMPublished():
+75 Created virtif 0xffffff800c32ee00 p2p0
+75 BCM5701Enet: Ethernet address c8:2a:14:57:a4:7a
+75 Previous Shutdown Cause: 3
+75 NTFS driver 3.8 [Flags: R/W].
+75 NTFS volume name BOOTCAMP, version 3.1.
+75 DSMOS has arrived
+75 en1: 802.11d country code set to &#039;US&#039;.
+75 en1: Supported channels 1 2 3 4 5 6 7 8 9 10 11 36 40 44 48 52 56 60 64 100 104 108 112 116 120 124 128 132 136 140 149 153 157 161 165
+75 m_thebest
+75 MacAuthEvent en1   Auth result for: 00:60:64:1e:e9:e4  MAC AUTH succeeded
+75 MacAuthEvent en1   Auth result for: 00:60:64:1e:e9:e4 Unsolicited  Auth
+75 wlEvent: en1 en1 Link UP
+75 AirPort: Link Up on en1
+75 en1: BSSID changed to 00:60:64:1e:e9:e4
+75 virtual bool IOHIDEventSystemUserClient::initWithTask(task*, void*, UInt32):
+75 Client task not privileged to open IOHIDSystem for mapping memory (e00002c1)
+75 
+75 
+75 Boot Complete
+-1

@@ -1,0 +1,25 @@
+syntax = "proto3";
+package basic;
+
+// [RINF:DART-SIGNAL]
+message BootLogRequest {
+  int32 position = 1;
+}
+
+// [RINF:DART-SIGNAL]
+message DartReady {
+}
+
+// [RINF:DART-SIGNAL]
+message AppDirs {
+  string tmpDir = 1;
+  string appSupportDataDir = 2;
+  string appConfigDataDir = 3;
+  string downloadsDir = 4;
+  // add other as needed
+}
+
+// [RINF:RUST-SIGNAL]
+message BootLog {
+  string text = 1;
+}
